@@ -1,0 +1,259 @@
+/* =========================================================
+   CredMais — Hero
+   Composição no formato do banner de referência:
+   texto pequeno à esquerda + palavra grande em duas linhas (2ª recuada)
+   + tracinho, parágrafo e pílula branca.
+   A imagem termina em branco para emendar na próxima seção; por isso ela
+   aparece inteira (sem corte embaixo) e o texto fica acima da área branca.
+   ========================================================= */
+
+.hero {
+  --hero-top: calc(var(--topbar-h) + var(--nav-h));
+  --big: max(50px, 5.4vw);                /* palavra grande (acompanha a imagem) */
+  --small: max(16px, 1.3vw);              /* frase de abertura */
+  --indent: 0px;                          /* tudo alinhado na mesma margem */
+  position: relative;
+  padding-top: var(--hero-top);
+  background: #fff;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* ---------- Imagem: inteira, na proporção original ---------- */
+.hero__media {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 1672 / 941;
+}
+.hero__media picture,
+.hero__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hero__media img {
+  object-fit: cover;
+  object-position: 50% 100%;
+  animation: heroImg 1.8s var(--ease) both;
+}
+/* Área atrás da navbar transparente: a primeira linha da imagem esticada,
+   para o azul continuar sem emenda até o topo da página */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: var(--hero-top);
+  background: url("/assets/img/hero-top.png") 0 0 / 100% 100% no-repeat;
+}
+@keyframes heroImg {
+  from { opacity: 0; transform: scale(1.05); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ---------- Texto sobre a imagem (desktop) ---------- */
+.hero__inner {
+  position: absolute;
+  z-index: 2;
+  top: var(--hero-top);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: none;          /* posição medida pela tela inteira, como a imagem */
+  padding: 0;
+}
+.hero__content {
+  position: absolute;
+  top: 24%;                 /* no espaço livre à esquerda, acima da onda branca */
+  left: 6.5vw;              /* em vw: acompanha a imagem, não o container */
+  width: 37vw;              /* termina antes do cabelo (que começa em ~44% da largura) */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero__title { display: contents; }   /* os filhos do h1 entram na grade */
+
+/* ---------- Entrada escalonada ---------- */
+.anim {
+  animation: rise 1.1s var(--ease) both;
+  animation-delay: var(--d, 0s);
+}
+@keyframes rise {
+  from { opacity: 0; transform: translateY(26px); filter: blur(6px); }
+  to   { opacity: 1; transform: none; filter: blur(0); }
+}
+
+/* ---------- Texto lateral ---------- */
+.hero__side {
+  margin-bottom: max(10px, .9vw);
+  font-size: var(--small);
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -.01em;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(8, 20, 51, .35);
+  white-space: nowrap;
+}
+
+/* ---------- Palavra grande ---------- */
+.hero__side br { display: none; }
+.hero__side { margin-bottom: max(12px, 1.1vw); color: rgba(255, 255, 255, .88); }
+
+.hero__big {
+  display: block;
+  font-size: var(--big);
+  font-weight: 700;
+  line-height: .98;
+  letter-spacing: -.045em;
+  color: #fff;
+  text-shadow: 0 4px 40px rgba(8, 20, 51, .4);
+}
+.hero__big--2 { margin-left: var(--indent); }
+
+/* ---------- Palavras alternadas ---------- */
+.rotator {
+  position: relative;
+  display: inline-block;
+  height: 1.12em;
+  width: var(--w, auto);
+  vertical-align: top;
+  transition: width .7s var(--ease);
+  perspective: 600px;
+}
+@media (min-width: 1025px) {
+  .rotator { filter: drop-shadow(0 4px 22px rgba(8, 20, 51, .55)); }
+}
+.rotator__word {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  padding: 0 .04em .1em 0;
+  background: var(--gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  opacity: 0;
+  transform: translateY(70%) rotateX(-70deg);
+  transform-origin: 50% 100%;
+  filter: blur(8px);
+  transition: opacity .6s var(--ease), transform .8s var(--ease), filter .6s var(--ease);
+}
+.rotator__word.is-active {
+  opacity: 1;
+  transform: none;
+  filter: blur(0);
+}
+.rotator__word.is-leaving {
+  opacity: 0;
+  transform: translateY(-60%) rotateX(60deg);
+  transform-origin: 50% 0;
+  filter: blur(8px);
+}
+/* Primeira palavra visível mesmo sem JavaScript */
+.rotator:not(.is-ready) { width: auto; }
+.rotator:not(.is-ready) .rotator__word.is-active { position: relative; }
+
+/* ---------- Tracinho, parágrafo e pílula ---------- */
+.hero__cta {
+  margin-top: max(22px, 2vw);
+  max-width: max(300px, 25vw);
+}
+.hero__lead {
+  margin: 0;
+  font-size: max(15px, 1.1vw);
+  font-weight: 400;
+  line-height: 1.6;
+  text-wrap: pretty;
+  color: rgba(255, 255, 255, .88);
+}
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: max(48px, 3.2vw);
+  margin-top: max(24px, 2vw);
+  padding: 0 max(26px, 1.8vw);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--navy);
+  font-size: max(15px, 1vw);
+  font-weight: 700;
+  box-shadow: 0 12px 28px -14px rgba(8, 20, 51, .55);
+  transition: background-color .3s var(--ease), transform .3s var(--ease);
+}
+.btn-pill svg {
+  width: 1.1em; height: 1.1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform .4s var(--ease);
+}
+.btn-pill:hover { transform: translateY(-1px); }
+.btn-pill:hover svg { transform: translateX(3px); }
+.btn-pill:hover { background: var(--ivory); }
+
+/* =========================================================
+   Tablet e celular: texto em cima (fundo azul da imagem),
+   imagem embaixo terminando em branco
+   ========================================================= */
+@media (max-width: 1024px) {
+  .hero {
+    --big: clamp(52px, 10vw, 84px);
+    --small: clamp(16px, 2.4vw, 20px);
+    padding-top: calc(var(--hero-top) + 48px);
+    /* Continua o gradiente azul que já aparece no topo da foto. */
+    background: linear-gradient(90deg, #0D52E7 0%, #1378EF 48%, #0C6FDF 100%);
+  }
+  .hero__inner { position: relative; inset: auto; top: auto; max-width: 1360px; padding: 0 var(--pad); }
+  .hero__content {
+    position: static;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    text-align: center;
+  }
+  .hero__side { text-align: center; padding: 0; margin-bottom: 10px; }
+  .hero__big--2 { margin-left: 0; }
+
+  .rotator__word { left: 50%; transform: translate(-50%, 70%) rotateX(-70deg); }
+  .rotator__word.is-active { transform: translate(-50%, 0); }
+  .rotator__word.is-leaving { transform: translate(-50%, -60%) rotateX(60deg); }
+  .rotator:not(.is-ready) .rotator__word.is-active { left: 0; transform: none; }
+
+  .hero__cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px auto 0;
+    max-width: 420px;
+  }
+  .hero__lead { font-size: 15px; }
+
+  /* imagem sem moldura: o topo se funde no azul e o fim já é branco */
+  .hero__media {
+    margin-top: 24px;
+    aspect-ratio: 4 / 3;
+  }
+  .hero__media img { object-position: 64% 100%; }
+  .hero::before { display: none; }   /* no celular o próprio fundo azul já cobre a área da navbar */
+}
+
+@media (max-width: 599px) {
+  .hero {
+    --big: min(15vw, 60px);
+    --small: 16px;
+    padding-top: calc(var(--hero-top) + 36px);
+    background: linear-gradient(90deg, #106AF2 0%, #1378EF 100%);
+  }
+  .hero__cta { margin-top: 28px; }
+  .hero__media { aspect-ratio: 4 / 5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotator__word { filter: none; }
+}
