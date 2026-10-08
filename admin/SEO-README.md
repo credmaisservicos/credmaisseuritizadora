@@ -39,7 +39,7 @@ O painel otimiza uploads em WebP até 1400 px; arquivo recebido máximo 5 MB. Ob
 
 ## Publicação técnica
 
-`tools/build-seo.py` gera metadados iniciais, arquivos e Workers. Após build Vite do Pay, rode novamente para criar HTML de cada rota em dist. `tools/deploy-seo.py` instala as políticas e valores iniciais de maneira idempotente. `tools/publish-sites.py` publica apenas os dois projetos autorizados e conecta os três hosts da Securitizadora e o host da CredCartas. Não altera credmaisapp ou registros de e-mail.
+`tools/build-seo.py` gera metadados iniciais, arquivos e Workers. O Pay executa `scripts/seo-build.mjs` automaticamente em `npm run build`, lendo o SEO publicado para gerar HTML por rota, robots e sitemap; sem credenciais privadas. `tools/deploy-seo.py` instala as políticas e valores iniciais de maneira idempotente. `tools/publish-sites.py` publica apenas os dois projetos autorizados e conecta os hosts da Securitizadora, do painel e da CredCartas. Não altera credmaisapp ou registros de e-mail.
 
 Para o Google, ainda é necessário adicionar e verificar as propriedades na conta desejada do Search Console e enviar os sitemaps. Não há conexão OAuth do Google nem métricas reais de tráfego no painel. Rastreamento, indexação e posicionamento são decisões do buscador.
 

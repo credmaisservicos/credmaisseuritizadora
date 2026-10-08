@@ -36,4 +36,6 @@ if dist.is_dir():
   file=dist/('index.html' if p['path']=='/' else p['path'].lstrip('/')+'/index.html')
   if file!=dist/'index.html':file.parent.mkdir(exist_ok=True,parents=True);shutil.copyfile(dist/'index.html',file)
   inject(file,rendered['pay']['head'][p['id']])
+if dist.is_dir() and (pay/'scripts/seo-build.mjs').exists():
+ subprocess.run(['node',str(pay/'scripts/seo-build.mjs')],cwd=pay,check=True)
 print('Initial metadata, canonical URLs, social previews, schemas, robots and sitemaps generated.')
