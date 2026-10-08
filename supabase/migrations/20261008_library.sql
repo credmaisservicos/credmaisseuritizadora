@@ -1,0 +1,10 @@
+begin;
+create table if not exists public.cms_media(id uuid primary key,data jsonb not null);
+create table if not exists public.cms_settings(id text primary key,data jsonb not null);
+alter table public.cms_media enable row level security;
+alter table public.cms_settings enable row level security;
+revoke all on public.cms_media,public.cms_settings from anon,authenticated;
+grant select,insert,update,delete on public.cms_media,public.cms_settings to authenticated;
+create policy owner_library on public.cms_media for all to authenticated using(exists(select 1 from public.cms_admins where user_id=(select auth.uid()))) with check(exists(select 1 from public.cms_admins where user_id=(select auth.uid())));
+create policy owner_settings on public.cms_settings for all to authenticated using(exists(select 1 from public.cms_admins where user_id=(select auth.uid()))) with check(exists(select 1 from public.cms_admins where user_id=(select auth.uid())));
+commit;

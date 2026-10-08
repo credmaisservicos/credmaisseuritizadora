@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="/assets/css/style.css?v=4" />
   <link rel="stylesheet" href="/assets/css/contato-footer.css?v=4" />
   <link rel="stylesheet" href="/assets/css/contato.css?v=3" />
-</head>
+<link rel="stylesheet" href="/assets/css/forms-common.css"><link rel="stylesheet" href="/assets/css/cms-sections.css"><script src="/assets/js/cms-config.js" defer></script><script src="/assets/js/cms-site.js" defer></script></head>
 <body data-page="contato">
   <div id="site-header"></div>
   <script src="/assets/js/header.js?v=6"></script>
@@ -83,20 +83,20 @@
           <div class="contact-form-panel__heading">
             <p class="contact-main__eyebrow">Um primeiro passo</p>
             <h2 id="contact-form-title">Conte um pouco sobre a sua empresa.</h2>
-            <p>Preencha os campos e continue a conversa pelo WhatsApp.</p>
+            <p>Preencha os campos para receber o contato da nossa equipe.</p>
           </div>
 
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form" data-cm-contact="securitizadora">
             <div class="contact-form__fields">
               <label class="contact-field">
                 <span>Seu nome</span>
-                <input name="name" autocomplete="name" placeholder="Como podemos chamar você?" required />
+                <input name="name" maxlength="120" autocomplete="name" placeholder="Como podemos chamar você?" required />
               </label>
               <label class="contact-field">
                 <span>Nome da empresa</span>
-                <input name="company" autocomplete="organization" placeholder="Sua empresa" required />
+                <input name="company" maxlength="160" autocomplete="organization" placeholder="Sua empresa" required />
               </label>
-              <label class="contact-field contact-field--wide">
+              <label class="contact-field"><span>WhatsApp</span><input name="phone" type="tel" autocomplete="tel" placeholder="(11) 99999-9999" required maxlength="30"></label><label class="contact-field"><span>E-mail (opcional)</span><input name="email" type="email" autocomplete="email" placeholder="voce@empresa.com" maxlength="200"></label><label class="contact-field contact-field--wide">
                 <span>O que você gostaria de conhecer?</span>
                 <select name="service">
                   <option value="Quero ajuda para escolher">Quero ajuda para escolher</option>
@@ -108,11 +108,11 @@
               </label>
               <label class="contact-field contact-field--wide">
                 <span>Como podemos ajudar?</span>
-                <textarea name="message" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+                <textarea name="message" maxlength="5000" rows="4" placeholder="Escreva sua mensagem" required></textarea>
               </label>
             </div>
-            <button class="contact-form__submit" type="submit">
-              <span>Continuar pelo WhatsApp</span>
+            <label class="cm-consent"><input type="checkbox" name="consent" required><span>Autorizo o contato da equipe sobre a minha solicitação.</span></label><label class="cm-honeypot" aria-hidden="true">Site<input name="website" tabindex="-1" autocomplete="off"></label><button class="contact-form__submit" type="submit">
+              <span>Enviar mensagem</span>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
             </button>
             <p class="contact-form__status" id="contact-form-status" role="status" aria-live="polite"></p>
@@ -141,7 +141,7 @@
             </span>
           </a>
 
-          <a class="contact-product-card contact-product-card--cards" href="https://credcartas.solutions/" target="_blank" rel="noopener noreferrer">
+          <a class="contact-product-card contact-product-card--cards" href="https://cartas.sejacredmais.com/" target="_blank" rel="noopener noreferrer">
             <img src="/assets/img/produto-credcartas.webp" srcset="/assets/img/produto-credcartas-1000.webp 1000w, /assets/img/produto-credcartas.webp 1536w" sizes="(max-width: 719px) calc(100vw - 48px), 50vw" width="1536" height="1024" alt="Casal sorri enquanto segura uma casa e um carro em uma composição sobre cartas de crédito." loading="lazy" />
             <span class="contact-product-card__shade" aria-hidden="true"></span>
             <span class="contact-product-card__content">
@@ -159,7 +159,7 @@
   <div id="site-footer"></div>
 
   <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/contato.js?v=1"></script>
+  <script src="/assets/js/credmais-forms.js?v=1"></script>
   <script src="/assets/js/footer.js?v=1"></script>
 </body>
 </html>

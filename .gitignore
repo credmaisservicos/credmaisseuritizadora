@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+*.local.env
+gcm-diagnose.log
+node_modules/
+__pycache__/
+.DS_Store

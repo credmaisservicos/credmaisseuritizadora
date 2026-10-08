@@ -1,0 +1,1 @@
+window.CredMaisBackendConfig={"url": "https://bqfunldpanspuqxsnoib.supabase.co", "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJxZnVubGRwYW5zcHVxeHNub2liIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE0NzEzNzUsImV4cCI6MjEwNzA0NzM3NX0.zlAkKWvl4bVMq4KvmWh2qyK1SeEWBEVwjf3q8FRzJto", "owner": "contato@sejacredmais.com"};

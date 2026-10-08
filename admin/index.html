@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#0E2257">
+  <title>Painel CredMais</title>
+  <link rel="icon" href="/assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./admin.css">
+  <link rel="stylesheet" href="./builder.css">
+  <script src="./backend-config.js" defer></script>
+  <script src="./backend.js" defer></script>
+  <script src="./builder.js" defer></script>
+  <script src="./admin.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Ir para o conteúdo</a>
+  <div class="app-shell" id="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Menu principal">
+      <a class="brand" href="#overview" aria-label="CredMais, visão geral"><img src="/assets/img/logo.png" width="226" height="66" alt="CredMais"><span>Central de gestão</span></a>
+      <button class="sidebar-close icon-button" id="sidebar-close" aria-label="Fechar menu"></button>
+      <div class="workspace-label"><span class="workspace-monogram">C</span><div><b>Grupo CredMais</b><small>Seu espaço de trabalho</small></div></div>
+      <nav id="primary-nav"></nav>
+      <div class="sidebar-sites"><p>Seus sites</p><div id="sidebar-sites"></div></div>
+      <div class="sidebar-bottom"><div class="owner-avatar">CM</div><div><b>Administrador</b><small>contato@sejacredmais.com</small></div><button class="icon-button" id="account-button" aria-label="Configurações da conta"></button></div>
+    </aside>
+    <button class="sidebar-backdrop" id="sidebar-backdrop" aria-label="Fechar menu" hidden></button>
+    <div class="app-body">
+      <header class="topbar">
+        <div class="topbar-location"><button class="icon-button mobile-menu" id="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="sidebar"></button><span>Seu painel</span><span class="breadcrumb-divider">/</span><b id="breadcrumb">Visão geral</b></div>
+        <div class="topbar-actions"><span class="preview-indicator">Prévia local</span><button class="icon-button" id="help-button" aria-label="Sobre esta prévia"></button><span class="topbar-divider"></span><button class="profile-button" id="profile-button" aria-label="Abrir configurações do administrador">CM</button></div>
+      </header>
+      <main id="workspace" tabindex="-1"></main>
+      <footer class="app-footer"><span>CredMais · Central de gestão</span><a href="https://focussdev.art" target="_blank" rel="noopener noreferrer">Construído por <b>FocussDev</b><span aria-hidden="true"> ↗</span></a></footer>
+    </div>
+  </div>
+  <dialog class="dialog" id="modal"><div id="modal-content"></div></dialog>
+  <div class="toast-stack" id="toasts" role="status" aria-live="polite"></div>
+  <input type="file" id="media-upload" accept="image/png,image/jpeg,image/webp,image/avif" multiple hidden>
+</body>
+</html>
