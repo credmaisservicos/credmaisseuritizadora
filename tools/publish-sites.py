@@ -18,13 +18,15 @@ stage.mkdir(exist_ok=True)
 secur=stage/'securitizadora';secur.mkdir(exist_ok=True)
 for name in ['assets','admin','contato','servicos']:shutil.copytree(ROOT/name,secur/name,dirs_exist_ok=True)
 shutil.copyfile(ROOT/'index.html',secur/'index.html')
+for name in ['robots.txt','sitemap.xml','_worker.js','_routes.json']:
+ if (ROOT/name).exists():shutil.copyfile(ROOT/name,secur/name)
 headers='/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/admin/*\n  Cache-Control: no-store\n'
 (secur/'_headers').write_text(headers)
 cartas=PRIVATE/'credcartas/dist';(cartas/'_headers').write_text(headers)
 cli_env=os.environ.copy();cli_env.update({'CLOUDFLARE_API_TOKEN':token,'CLOUDFLARE_ACCOUNT_ID':account,'WRANGLER_SEND_METRICS':'false','CI':'true'})
 projects=api('accounts/'+account+'/pages/projects')
 deployment=[]
-for name,folder,domains in [('credmais-securitizadora',secur,['sejacredmais.com','www.sejacredmais.com']),('credcartas',cartas,['cartas.sejacredmais.com'])]:
+for name,folder,domains in [('credmais-securitizadora',secur,['sejacredmais.com','www.sejacredmais.com','admin.sejacredmais.com']),('credcartas',cartas,['cartas.sejacredmais.com'])]:
  assert name!='credmaisapp'
  project=next((p for p in projects if p['name']==name),None)
  if not project:project=api('accounts/'+account+'/pages/projects','POST',{'name':name,'production_branch':'main'})

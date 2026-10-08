@@ -1,0 +1,1105 @@
+{
+  "securitizadora": {
+    "name": "CredMais Securitizadora",
+    "origin": "https://sejacredmais.com",
+    "description": "Soluções para o caixa e as vendas da empresa.",
+    "indexing": true,
+    "disallow": [],
+    "verification": "",
+    "socialImage": "https://sejacredmais.com/admin/media/securitizadora-1.webp",
+    "logo": "https://sejacredmais.com/assets/img/logo.png",
+    "sameAs": [
+      "https://www.instagram.com/credmais.sa/"
+    ],
+    "keywords": [
+      {
+        "term": "antecipação de recebíveis",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipação de boletos",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipação para empresas",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipar vendas a prazo",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipar contas a receber",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipação de duplicatas",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "recebíveis empresariais",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "capital com recebíveis",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "fluxo de caixa empresarial",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "gestão de contas a receber",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "capital de giro para empresas",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "como antecipar recebíveis",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "análise de recebíveis",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipação para comércio",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "antecipação para prestadores de serviços",
+        "group": "Antecipação",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "status": "planned"
+      },
+      {
+        "term": "Pix parcelado",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "vender no Pix parcelado",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "Pix parcelado para empresas",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "Pix parcelado para lojistas",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "pagamento em parcelas via Pix",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "como funciona Pix parcelado",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "oferecer Pix parcelado",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "Pix parcelado no comércio",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "Pix parcelado para serviços",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "vendas com Pix parcelado",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "receber vendas no Pix",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "formas de pagamento para empresas",
+        "group": "Pix Parcelado",
+        "path": "/servicos/pix-parcelado/",
+        "status": "planned"
+      },
+      {
+        "term": "boleto garantido",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "venda com boleto garantido",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "garantia de recebimento no boleto",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "boleto garantido para empresas",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "como funciona boleto garantido",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "vender no boleto",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "receber mesmo com inadimplência",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "garantia para vendas a prazo",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "vendas no boleto para comércio",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "condições do boleto garantido",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "segurança no recebimento de boletos",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "boleto com garantia",
+        "group": "Boleto Garantido",
+        "path": "/servicos/boleto-garantido/",
+        "status": "planned"
+      },
+      {
+        "term": "gestão de cobranças",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "cobrança para empresas",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "terceirização de cobranças",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "cobrança empresarial",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "serviço de cobrança",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "como organizar cobranças",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "cobranças de clientes",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "gestão de pagamentos a receber",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "apoio à cobrança empresarial",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais cobranças",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "empresa de gestão de cobranças",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "cobrança de boletos",
+        "group": "Cobranças",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais Securitizadora",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais serviços",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais recebíveis",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "soluções para empresas CredMais",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "contato CredMais",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "seja CredMais",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "serviços financeiros para empresas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "soluções para vendas a prazo",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      }
+    ]
+  },
+  "cartas": {
+    "name": "CredCartas",
+    "origin": "https://cartas.sejacredmais.com",
+    "description": "Cartas de crédito contempladas para carros e imóveis.",
+    "indexing": true,
+    "disallow": [],
+    "verification": "",
+    "socialImage": "https://sejacredmais.com/admin/media/cartas-7.webp",
+    "logo": "",
+    "sameAs": [],
+    "keywords": [
+      {
+        "term": "carta de crédito contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "cartas de crédito contempladas",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "consórcio contemplado",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "comprar carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada à venda",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "cartas contempladas disponíveis",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "como comprar carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "como funciona carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "análise de carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "transferência de carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "condições de carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "documentação de carta contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta de crédito já contemplada",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "crédito de consórcio contemplado",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "compra de consórcio contemplado",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada com orientação",
+        "group": "Cartas contempladas",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para imóvel",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta de crédito imobiliária contemplada",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "consórcio imobiliário contemplado",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "comprar imóvel com carta contemplada",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para casa",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para apartamento",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "crédito contemplado para imóvel",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta imobiliária contemplada",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta de consórcio para imóvel",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "planejar compra de imóvel",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "compra de casa com consórcio",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "condições de carta imobiliária",
+        "group": "Imóveis",
+        "path": "/cartas.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para veículo",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta de crédito para carro",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "consórcio de carro contemplado",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para carro usado",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada para carro novo",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "comprar carro com carta contemplada",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "crédito contemplado para veículo",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta de consórcio para automóvel",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "consórcio de veículos contemplado",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "carta contemplada automotiva",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "planejar compra de carro",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "condições de carta para veículo",
+        "group": "Veículos",
+        "path": "/veiculos.html",
+        "status": "planned"
+      },
+      {
+        "term": "diferença entre consórcio e financiamento",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "administradora de consórcio",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "análise da administradora",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "utilização de crédito contemplado",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "documentos para transferência de consórcio",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "orientação sobre cartas contempladas",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "consultar cartas contempladas",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "escolher carta contemplada",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "etapas da compra de carta contemplada",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "segurança na compra de carta contemplada",
+        "group": "Orientação",
+        "path": "/como-funciona.html",
+        "status": "planned"
+      },
+      {
+        "term": "CredCartas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredCartas soluções",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredCartas cartas contempladas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "contato CredCartas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais cartas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "cartas sejacredmais",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "consultoria CredCartas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "oportunidades CredCartas",
+        "group": "Marca",
+        "path": "/",
+        "status": "planned"
+      }
+    ]
+  },
+  "pay": {
+    "name": "CredMais Pay",
+    "origin": "https://credmaispay.com",
+    "description": "Empréstimos e soluções financeiras digitais.",
+    "indexing": true,
+    "disallow": [],
+    "verification": "",
+    "socialImage": "https://sejacredmais.com/admin/media/pay-13.webp",
+    "logo": "",
+    "sameAs": [],
+    "keywords": [
+      {
+        "term": "CredMais Pay empréstimos",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para CLT",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para trabalhador CLT",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para motorista de aplicativo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para motorista de aplicativo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para entregador de aplicativo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para entregadores",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para pequenos negócios",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para pequeno empreendedor",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para vendedor no iFood",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para motorista Uber",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para motorista 99",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "crédito para vendedor iFood",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "empréstimo para autônomo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "como solicitar empréstimo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "análise de crédito",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "condições de empréstimo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "simulação de crédito",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "solicitar crédito online",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "entender custo do empréstimo",
+        "group": "Empréstimos",
+        "path": "/emprestimos",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais Pay conta digital",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "conta digital",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "conta digital pelo celular",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "abrir conta digital",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "pagar pelo celular",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "receber pelo celular",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "acompanhar dinheiro pelo celular",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "organização financeira digital",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "pagamentos digitais",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "conta para autônomo",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "conta para motorista de aplicativo",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "conta para pequenos negócios",
+        "group": "Conta digital",
+        "path": "/conta",
+        "status": "planned"
+      },
+      {
+        "term": "segurança financeira digital",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "segurança no Pix",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "como evitar golpes no Pix",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "proteção de dados financeiros",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "reconhecer golpes financeiros",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "canal oficial CredMais Pay",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "segurança da conta digital",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "cuidados ao solicitar empréstimo",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "proteção contra fraude",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "orientação financeira segura",
+        "group": "Segurança",
+        "path": "/seguranca",
+        "status": "planned"
+      },
+      {
+        "term": "educação financeira",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "planejamento financeiro",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "organizar orçamento pessoal",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "entender crédito pessoal",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "como organizar as finanças",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "gestão financeira para autônomos",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "controle de despesas",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "uso consciente do crédito",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "dicas financeiras para motoristas",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "dicas financeiras para entregadores",
+        "group": "Educação financeira",
+        "path": "/blog",
+        "status": "planned"
+      },
+      {
+        "term": "CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "CredMaisPay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "credmaispay.com",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "contato CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "atendimento CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "ajuda CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "produtos CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      },
+      {
+        "term": "soluções financeiras CredMais Pay",
+        "group": "Marca e atendimento",
+        "path": "/",
+        "status": "planned"
+      }
+    ]
+  }
+}

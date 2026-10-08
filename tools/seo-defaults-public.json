@@ -1,0 +1,519 @@
+{
+  "securitizadora": {
+    "site": {
+      "name": "CredMais Securitizadora",
+      "origin": "https://sejacredmais.com",
+      "description": "Soluções para o caixa e as vendas da empresa.",
+      "indexing": true,
+      "disallow": [],
+      "verification": "",
+      "socialImage": "https://sejacredmais.com/admin/media/securitizadora-1.webp",
+      "logo": "https://sejacredmais.com/assets/img/logo.png",
+      "sameAs": [
+        "https://www.instagram.com/credmais.sa/"
+      ]
+    },
+    "pages": [
+      {
+        "id": "securitizadora-0",
+        "path": "/",
+        "name": "Início",
+        "seoTitle": "CredMais | Soluções para recebíveis e vendas da sua empresa",
+        "seoDescription": "A CredMais antecipa o que a sua empresa tem a receber, com análise de cada operação e atendimento próximo do início ao fim.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "recebíveis",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "securitizadora-1",
+        "path": "/contato/",
+        "name": "Contato",
+        "seoTitle": "Contato | CredMais Securitizadora",
+        "seoDescription": "Conte para a CredMais o que a sua empresa precisa. Nossa equipe conversa com você sobre as soluções e os próximos passos.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "CredMais",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "securitizadora-2",
+        "path": "/servicos/pix-parcelado/",
+        "name": "Pix Parcelado",
+        "seoTitle": "Pix Parcelado para empresas | CredMais",
+        "seoDescription": "Ofereça ao seu cliente a possibilidade de pagar a compra via Pix em parcelas, conforme as condições da operação.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Pix parcelado",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "securitizadora-3",
+        "path": "/servicos/antecipacao-de-recebiveis/",
+        "name": "Antecipação de recebíveis",
+        "seoTitle": "Antecipação de boletos e recebíveis | CredMais",
+        "seoDescription": "Avalie com a CredMais se os valores que sua empresa tem a receber podem ajudar a organizar o caixa agora.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "antecipação de recebíveis",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "securitizadora-4",
+        "path": "/servicos/boleto-garantido/",
+        "name": "Boleto Garantido",
+        "seoTitle": "Boleto Garantido para empresas | CredMais",
+        "seoDescription": "Venda no boleto com garantia de recebimento, mesmo se o cliente não pagar.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "boleto garantido",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "securitizadora-5",
+        "path": "/servicos/gestao-de-cobrancas/",
+        "name": "Gestão de cobranças",
+        "seoTitle": "Gestão de cobranças para empresas | CredMais",
+        "seoDescription": "Deixe a gestão das cobranças com a CredMais e concentre sua energia no que faz a empresa seguir em frente.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "gestão de cobranças",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      }
+    ]
+  },
+  "cartas": {
+    "site": {
+      "name": "CredCartas",
+      "origin": "https://cartas.sejacredmais.com",
+      "description": "Cartas de crédito contempladas para carros e imóveis.",
+      "indexing": true,
+      "disallow": [],
+      "verification": "",
+      "socialImage": "https://sejacredmais.com/admin/media/cartas-7.webp",
+      "logo": "",
+      "sameAs": []
+    },
+    "pages": [
+      {
+        "id": "cartas-0",
+        "path": "/",
+        "name": "Início",
+        "seoTitle": "CredCartas | Cartas contempladas para carros e imóveis",
+        "seoDescription": "Encontre oportunidades para comprar seu carro ou imóvel com crédito contemplado e acompanhamento em cada etapa.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "crédito contemplado",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "cartas-1",
+        "path": "/cartas.html",
+        "name": "Cartas contempladas",
+        "seoTitle": "Cartas de crédito contempladas | CredCartas",
+        "seoDescription": "Oportunidades para carro ou imóvel, apresentadas com contexto, condições e acompanhamento.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "cartas de crédito",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "cartas-2",
+        "path": "/veiculos.html",
+        "name": "Veículos",
+        "seoTitle": "Cartas contempladas para veículos | CredCartas",
+        "seoDescription": "Encontre cartas de crédito já contempladas para veículos novos ou usados, respeitando as condições da carta e da administradora.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "veículos",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "cartas-3",
+        "path": "/como-funciona.html",
+        "name": "Como funciona",
+        "seoTitle": "Como funciona a carta contemplada | CredCartas",
+        "seoDescription": "Uma visão clara da busca por uma carta de crédito contemplada até a análise da administradora e a utilização do crédito.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "carta de crédito contemplada",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "cartas-4",
+        "path": "/sobre.html",
+        "name": "Sobre",
+        "seoTitle": "Sobre a CredCartas | Cartas de crédito contempladas",
+        "seoDescription": "Somos uma empresa especializada em cartas de crédito contempladas para carros e imóveis, com orientação próxima em cada etapa.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "cartas de crédito contempladas",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "cartas-5",
+        "path": "/contato.html",
+        "name": "Contato",
+        "seoTitle": "Contato | Encontre sua carta contemplada com a CredCartas",
+        "seoDescription": "Preencha os dados essenciais. A conversa começa pelo seu objetivo — não por uma oferta pronta.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "contato",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      }
+    ]
+  },
+  "pay": {
+    "site": {
+      "name": "CredMais Pay",
+      "origin": "https://credmaispay.com",
+      "description": "Empréstimos e soluções financeiras digitais.",
+      "indexing": true,
+      "disallow": [],
+      "verification": "",
+      "socialImage": "https://sejacredmais.com/admin/media/pay-13.webp",
+      "logo": "",
+      "sameAs": []
+    },
+    "pages": [
+      {
+        "id": "pay-0",
+        "path": "/",
+        "name": "Início",
+        "seoTitle": "CredMais Pay | Crédito e soluções financeiras digitais",
+        "seoDescription": "Crédito para CLT, motoristas e entregadores de aplicativo, vendedores no iFood e pequenos negócios. Conheça as opções com clareza, sem gerente.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "crédito",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-1",
+        "path": "/conta",
+        "name": "Conta digital",
+        "seoTitle": "Conta digital | CredMais Pay",
+        "seoDescription": "Resolva pelo celular e no seu tempo. Pague, receba e acompanhe o dinheiro do dia a dia, sem complicação.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "conta digital",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-2",
+        "path": "/emprestimos",
+        "name": "Empréstimos",
+        "seoTitle": "Empréstimos para CLT, aplicativos e negócios | CredMais Pay",
+        "seoDescription": "Crédito para CLT, motoristas e entregadores de aplicativo, vendedores no iFood e pequenos negócios. Conheça as opções com clareza, sem gerente.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "crédito",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-3",
+        "path": "/seguranca",
+        "name": "Segurança",
+        "seoTitle": "Segurança digital e prevenção de golpes | CredMais Pay",
+        "seoDescription": "Tecnologia, autonomia e comunicação para ajudar você a reconhecer e proteger cada movimento.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "segurança",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-4",
+        "path": "/ajuda",
+        "name": "Ajuda e contato",
+        "seoTitle": "Ajuda e atendimento | CredMais Pay",
+        "seoDescription": "Encontre respostas rápidas ou indique o assunto para receber orientação.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "orientação",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-5",
+        "path": "/blog",
+        "name": "Blog",
+        "seoTitle": "Blog | Educação financeira e crédito | CredMais Pay",
+        "seoDescription": "Conteúdos para cuidar do seu dinheiro, usar o Pix com segurança e entender possibilidades de crédito no seu ritmo.",
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "dinheiro",
+          "noindex": false,
+          "nofollow": false,
+          "image": "",
+          "imageAlt": ""
+        }
+      },
+      {
+        "id": "pay-blog-pix-sem-complicacao",
+        "site": "pay",
+        "path": "/blog/pix-sem-complicacao",
+        "name": "Pix sem complicação: um guia para a rotina",
+        "seoTitle": "Pix sem complicação: um guia para a rotina | CredMais Pay",
+        "seoDescription": "Como enviar, receber e conferir um Pix com mais clareza antes de confirmar.",
+        "description": "Como enviar, receber e conferir um Pix com mais clareza antes de confirmar.",
+        "title": "Pix sem complicação: um guia para a rotina",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Pix",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-01.png",
+          "imageAlt": "Pix sem complicação: um guia para a rotina"
+        }
+      },
+      {
+        "id": "pay-blog-seguranca-no-dia-a-dia",
+        "site": "pay",
+        "path": "/blog/seguranca-no-dia-a-dia",
+        "name": "Segurança no dia a dia começa nos detalhes",
+        "seoTitle": "Segurança no dia a dia começa nos detalhes | CredMais Pay",
+        "seoDescription": "Hábitos simples para reconhecer alertas, proteger seus acessos e agir com calma.",
+        "description": "Hábitos simples para reconhecer alertas, proteger seus acessos e agir com calma.",
+        "title": "Segurança no dia a dia começa nos detalhes",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Segurança",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-02.png",
+          "imageAlt": "Segurança no dia a dia começa nos detalhes"
+        }
+      },
+      {
+        "id": "pay-blog-emprestimo-com-planejamento",
+        "site": "pay",
+        "path": "/blog/emprestimo-com-planejamento",
+        "name": "Empréstimo com planejamento: o que avaliar",
+        "seoTitle": "Empréstimo com planejamento: o que avaliar | CredMais Pay",
+        "seoDescription": "Entenda valor, prazo, parcelas e o impacto de uma decisão de crédito no orçamento.",
+        "description": "Entenda valor, prazo, parcelas e o impacto de uma decisão de crédito no orçamento.",
+        "title": "Empréstimo com planejamento: o que avaliar",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Crédito",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-03.png",
+          "imageAlt": "Empréstimo com planejamento: o que avaliar"
+        }
+      },
+      {
+        "id": "pay-blog-conta-digital-na-vida-real",
+        "site": "pay",
+        "path": "/blog/conta-digital-na-vida-real",
+        "name": "Conta digital na vida real: menos procura, mais visão",
+        "seoTitle": "Conta digital na vida real: menos procura, mais visão | CredMais Pay",
+        "seoDescription": "Como reunir saldo, pagamentos e comprovantes em uma leitura mais organizada.",
+        "description": "Como reunir saldo, pagamentos e comprovantes em uma leitura mais organizada.",
+        "title": "Conta digital na vida real: menos procura, mais visão",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Conta",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-04.png",
+          "imageAlt": "Conta digital na vida real: menos procura, mais visão"
+        }
+      },
+      {
+        "id": "pay-blog-pix-para-pequenos-negocios",
+        "site": "pay",
+        "path": "/blog/pix-para-pequenos-negocios",
+        "name": "Pix para pequenos negócios: organização que ajuda",
+        "seoTitle": "Pix para pequenos negócios: organização que ajuda | CredMais Pay",
+        "seoDescription": "Boas práticas para acompanhar recebimentos e manter o caixa mais previsível.",
+        "description": "Boas práticas para acompanhar recebimentos e manter o caixa mais previsível.",
+        "title": "Pix para pequenos negócios: organização que ajuda",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Para negócios",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-05.png",
+          "imageAlt": "Pix para pequenos negócios: organização que ajuda"
+        }
+      },
+      {
+        "id": "pay-blog-quem-e-a-credmaispay",
+        "site": "pay",
+        "path": "/blog/quem-e-a-credmaispay",
+        "name": "CredMaisPay: uma experiência mais próxima",
+        "seoTitle": "CredMaisPay: uma experiência mais próxima | CredMais Pay",
+        "seoDescription": "Nossa visão para tornar produtos financeiros mais diretos, úteis e transparentes.",
+        "description": "Nossa visão para tornar produtos financeiros mais diretos, úteis e transparentes.",
+        "title": "CredMaisPay: uma experiência mais próxima",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "CredMaisPay",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog-story-relatable-v1.webp",
+          "imageAlt": "CredMaisPay: uma experiência mais próxima"
+        }
+      },
+      {
+        "id": "pay-blog-comprovantes-e-organizacao",
+        "site": "pay",
+        "path": "/blog/comprovantes-e-organizacao",
+        "name": "Comprovantes: como guardar o que importa",
+        "seoTitle": "Comprovantes: como guardar o que importa | CredMais Pay",
+        "seoDescription": "Uma rotina simples para encontrar pagamentos e movimentações quando precisar.",
+        "description": "Uma rotina simples para encontrar pagamentos e movimentações quando precisar.",
+        "title": "Comprovantes: como guardar o que importa",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Conta",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-07.png",
+          "imageAlt": "Comprovantes: como guardar o que importa"
+        }
+      },
+      {
+        "id": "pay-blog-alertas-que-protegem",
+        "site": "pay",
+        "path": "/blog/alertas-que-protegem",
+        "name": "Alertas que protegem: leia antes de agir",
+        "seoTitle": "Alertas que protegem: leia antes de agir | CredMais Pay",
+        "seoDescription": "Aprenda a diferenciar uma notificação útil de um pedido suspeito.",
+        "description": "Aprenda a diferenciar uma notificação útil de um pedido suspeito.",
+        "title": "Alertas que protegem: leia antes de agir",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Segurança",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-08.png",
+          "imageAlt": "Alertas que protegem: leia antes de agir"
+        }
+      },
+      {
+        "id": "pay-blog-credito-para-seus-planos",
+        "site": "pay",
+        "path": "/blog/credito-para-seus-planos",
+        "name": "Crédito para seus planos, com informação",
+        "seoTitle": "Crédito para seus planos, com informação | CredMais Pay",
+        "seoDescription": "Perguntas importantes para fazer antes de contratar qualquer solução.",
+        "description": "Perguntas importantes para fazer antes de contratar qualquer solução.",
+        "title": "Crédito para seus planos, com informação",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Crédito",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-09.png",
+          "imageAlt": "Crédito para seus planos, com informação"
+        }
+      },
+      {
+        "id": "pay-blog-primeiros-passos-na-conta",
+        "site": "pay",
+        "path": "/blog/primeiros-passos-na-conta",
+        "name": "Primeiros passos para aproveitar sua conta",
+        "seoTitle": "Primeiros passos para aproveitar sua conta | CredMais Pay",
+        "seoDescription": "Um roteiro curto para conhecer os recursos que fazem sentido para você.",
+        "description": "Um roteiro curto para conhecer os recursos que fazem sentido para você.",
+        "title": "Primeiros passos para aproveitar sua conta",
+        "sections": [],
+        "seoOnlyPage": true,
+        "seo": {
+          "canonical": "",
+          "focusKeyword": "Conta",
+          "noindex": false,
+          "nofollow": false,
+          "image": "https://credmaispay.com/images/blog/blog-10.png",
+          "imageAlt": "Primeiros passos para aproveitar sua conta"
+        }
+      }
+    ]
+  }
+}

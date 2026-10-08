@@ -25,6 +25,7 @@ async function cmsLogin(form){
 }
 function activeLeads(){return state?.demo?state.demoLeads:cmsLeads;}
 async function cmsLoad(){
+ await seoLoad();
  const identity=await cmsRequest('/rest/v1/cms_admins?select=user_id');if(!identity.length)throw Error('Acesso não autorizado.');
  const settings=await cmsRequest('/rest/v1/cms_settings?select=data&id=eq.central');if(settings[0]){state.owner={...state.owner,...settings[0].data.owner};state.sites=state.sites.map(s=>({...s,...settings[0].data.sites?.find(x=>x.id===s.id)}));}
  const library=await cmsRequest('/rest/v1/cms_media?select=data');for(const record of library){const i=state.media.findIndex(m=>m.id===record.data.id);if(i<0)state.media.push(record.data);else state.media[i]=record.data;}

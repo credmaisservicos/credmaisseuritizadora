@@ -12,7 +12,7 @@
   return t.content.firstElementChild;
  }
  function apply(data,baseline){
-  if(!data)return;const main=[...document.querySelectorAll('main')].at(-1);if(!main||main.dataset.cmApplied)return;main.dataset.cmApplied='true';
+  if(!data||data.seoOnly)return;const main=[...document.querySelectorAll('main')].at(-1);if(!main||main.dataset.cmApplied)return;main.dataset.cmApplied='true';
   const sections=[...main.querySelectorAll('section')].filter(s=>!s.parentElement.closest('section'));
   const hero=sections.find(s=>s.querySelector('h1'))||sections[0],native=sections.filter(s=>s!==hero&&s.querySelector('h2'));
   const originals=new Map(baseline.sections.map((s,i)=>[s.id,native[i]]));
@@ -62,10 +62,10 @@
   const path=location.pathname;if(!force&&path===lastPath)return;lastPath=path;const current=++sequence;
   try{
    if(!cache.has('baseline'))cache.set('baseline',await (await fetch(settings.baseline)).json());
-   const baseline=cache.get('baseline').find(p=>p.path===path||(p.path==='/'&&path==='/index.html'));if(!baseline)return;
+   const baseline=cache.get('baseline').find(p=>p.path.replace(/\.html$/, '').replace(/\/$/, '')===path.replace(/\.html$/, '').replace(/\/$/, '')||(p.path==='/'&&path==='/index.html'));if(!baseline){await window.CredMaisSEOPage?.load();return;}
    const response=await fetch(settings.url+'/rest/v1/cms_public_pages?id=eq.'+encodeURIComponent(baseline.id)+'&select=published_content',{headers:{apikey:settings.anonKey},cache:'no-store'});
    if(!response.ok)return;const rows=await response.json();if(current!==sequence)return;
-   apply(rows[0]?.published_content,baseline);
+   await window.CredMaisSEOPage?.load(rows[0]?.published_content);if(current!==sequence)return;apply(rows[0]?.published_content,baseline);
   }catch{/* Keep the original website available if the content service is offline. */}
  }
  window.CredMaisCMS={load};
